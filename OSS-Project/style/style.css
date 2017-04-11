@@ -1,0 +1,196 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	
+	font-size: 100%;
+	
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body
+{
+	background-color:skyblue
+}
+.main_wrapper
+{
+	width:1000px;
+	background-color:pink ;
+	height:auto; 
+	margin:auto; 
+}
+.header_wrapper
+{
+	width:1000px;
+	height:70px; 
+}
+#logo
+{
+	float:left; 
+}
+#ad_banner
+{
+	float:right;
+}
+.menubar
+{
+	width:1000px;
+	height:80px;
+	background-color:#999;  
+	margin:auto; 
+}
+.content_wrapper
+{
+	width:1000px;
+	height:auto;
+	margin:auto;
+}
+#sidebar
+{
+	width:250px;
+	height:600px;
+	background-color:black;
+	float:left;    
+}
+#content_area
+{
+	width:750px;
+	height:auto;
+	background-color:pink;
+	float:right;    
+}
+#footer
+{
+	color:white;
+	font-family:Comic Sans Ms;
+	font-size:22px;
+	line-height:80px;    
+	text-align:center; 
+	width:1000px;
+	height:80px;
+	background-color:darkgray;  
+	clear:both;  
+}
+#mainmenu
+{
+	float:left;
+}
+#mainmenu li
+{
+	display:inline-block;
+	margin:5px;
+	padding:5px;
+	line-height:30px; 
+	list-style-type:none;   
+}
+#mainmenu a
+{
+	text-decoration:none; 
+	font-family:Comic Sans MS;
+	color:white;
+	font-size:18px;  
+}
+#mainmenu a:hover
+{
+	font-weight:bolder;
+	color:maroon; 
+	text-decoration:underline; 
+} 
+
+.menubar form
+{
+	float:right; 
+	line-height:45px;
+	margin-right:10px;  
+}
+.menubar form input
+{
+	padding:5px; 
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;  
+}
+#sidebar_title
+{
+	background-color:white;
+	color:black; 
+	font-size:22px;
+	text-align:center;
+	font-family:Arial;
+	padding:12px;   
+}
+#cats
+{
+   text-align:center; 	
+}
+#cats li
+{
+	list-style-type:none;
+    padding :4px; 
+}
+#cats a
+{
+	color:white;
+	font-size:18px;
+	font-family:Comic Sans MS;
+	text-decoration:none;   
+}
+#cats a:hover
+{
+	text-decoration:underline;
+	font-weight:bolder;
+	color:orange;   
+}
+#cart_bar
+{
+	width:750px;
+	height:50px;
+	background-color:black;
+    font-size:18px;  
+	line-height:50px;   
+}
+#product_box
+{
+	font-family:arial;
+	width:750px;
+	height:auto;
+	margin:auto; 
+}
+#single_product
+{
+	text-align:center; 
+	float:left;
+	margin-left:30px;
+	margin-bottom:30px; 
+}
+#product_detail
+{
+	
+	text-align:center; 
+	margin:auto;
+	margin-top:20px; 
+	width:400px;  
+}
+#registration td
+{
+   padding:5px;
+}
